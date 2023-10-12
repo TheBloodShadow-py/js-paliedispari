@@ -8,7 +8,7 @@ isPalindromic(word);
 
 function isPalindromic(word) {
   if (!word) {
-    alert("Non puoi inserire un campo vuoto");
+    alert("You have to write a word!");
     return false;
   }
   if (word === getReversedString(word)) {
